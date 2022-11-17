@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: انواع لینک‌ها و میزان تاثیر آن
 ---
 
