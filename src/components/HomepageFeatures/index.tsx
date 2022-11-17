@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'سئو و بهینه‌سازی وب‌سایت',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        با استفاده از نتایج ابزار تحلیلی و راهکارهای مطرح شده در سامانه راسخ سایت خود را به بهترین شکل ممکن برای موتورهای جست‌وجو بهینه‌سازی کنید، تا رتبه بهتری در صفحه نتایج کسب کنید.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'پلتفرم اینستاگرام',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        همه آنچه باید درباره الگوریتم‌ها و نحوه عملکرد پلتفرم اینستاگرام بدانید در این بخش آورده شده است تا بتوانید استراتژی مناسبی را تدوین کرده و عملکرد خودتان را در راستای رسیدن به اهداف کلیدی بهینه‌سازی کنید.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'پلتفرم توییتر',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        درک نحوه عملکرد الگوریتم‌ها در بستر پلتفرم توییتر به شما کمک می‌کند تا هدفمند و هوشمندانه عمل کنید. در این بخش صفر تا صد جزئیات این پلتفرم کاربردی مورد بررسی قرار گرفته و راهکارهای ارزشمندی ارائه شده است.
       </>
     ),
   },

@@ -1,47 +1,16 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
+title: مقدمه
 ---
 
-# Tutorial Intro
+# سئو و بهینه‌سازی سایت برای موتورهای جست‌وجو
 
-Let's discover **Docusaurus in less than 5 minutes**.
+وب **بزرگترین مخزن** داده است. که در این مخزن داده ها به فرمت HTML ،XML ،TEXT هستند. وب سایت مجموعه‌ای از صفحات وب در دسترس عموم و مرتبط با یکدیگر است که یک نام دامنه واحد را به اشتراک می‌گذارند. وب سایت‌ها را می توان توسط یک فرد، گروه، کسب و کار یا سازمان برای اهداف مختلف ایجاد و نگهداری کرد. همه وب‌سایت‌های در دسترس عموم با هم، شبکه جهانی وب را تشکیل می‌دهند.
 
-## Getting Started
+وب سایت‌ها انواع مختلفی دارند و تعداد آن‌ها در سطح وب بیشمار است. تفاوت اصلی آن‌ها با رسانه‌های اجتماعی این است که شما در صورت داشتن یک سایت، به صورت کامل مالک آن هستید اما در شبکه‌های اجتماعی شما صرفا یک حساب کاربری را زیر نظر مالک اصلی در اختیار دارید که مالک اصلی می‌تواند در هر لحظه محدودیت‌های زیادی را بر روی حساب شما اعمال کند و حتی آن را مسدود نماید.
 
-Get started by **creating a new site**.
+به همین دلیل وب سایت‌ها از اهمیت بیشتری برخوردار هستند؛ زیرا علاوه بر انتشار اطلاعات، اخبار، آگاهی و افزایش سرایت‌پذیری اطلاعات، مالکیت انحصاری دارند و می‌توان آن‌ها را تا حد نیاز شخصی‌سازی کرد. از طرفی بستر اینترنت و فضای وب در ابتدا با تکنولوژیWeb 1.0 شروع به کار کرد. که فقط افراد و شرکت‌های معتبر که دارای ویژگی‌های خاصی بودند، می‌توانستند مطالبی را در این سطح وب به اشتراک گذاشته تا دیگران از آن استفاده کنند.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+اما پس از به وجود آمدن تکنولوژیWeb 2.0 که بر پایه تعملات و همکاری و مشارکت پایه گذاری شده بود تحولی در میزان بهره‌وری از اینترنت و فضای وب به وجود آمد. به این صورت که دیگر ساختن وب سایت‌ها، به اشتراک گذاشتن مطالب و محتوا در انحصار شرکت خاصی نبود و مردم عادی نیز می‌توانستند اینکار را انجام دهند. در نتیجه این موضوع وب سایت‌های زیادی ایجاد شد که سرشار از مطالب و محتواهای گوناگون بود.
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+با زیاد شدن محتوا و وب سایت‌ها نیاز به سازوکاری وجود داشت که بتوان این مطالب را دسته‌بندی و مرتب‌سازی کرد تا بتوان با کیفیت‌ترین آن‌ها را به کاربران ارائه داد. در این زمان بود که مفهوم وب کاوی، موتورهای جست‌و‌جو و بهینه‌سازی سایت برای موتورهای جست‌وجو شکل گرفت. که در ادامه مفصل به بررسی مفاهیم و دستور العمل‌های رشد یک وب‌سایت در بستر این موتورهای جست‌وجو خواهیم پرداخت.

@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'سامانه راسخ',
+  tagline: 'راهنمای سئو و رسانه‌های اجتماعی',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -16,15 +16,32 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'مرکز علوم شناختی صدرا', // Usually your GitHub org/user name.
+  projectName: 'ابزار تحلیلی', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'fa',
+    locales: ['en', 'fa'],
+    path: 'i18n',
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+        path: 'en',
+      },
+      fa: {
+        label: 'فارسی',
+        direction: 'rtl',
+        htmlLang: 'fa-IR',
+        calendar: 'persian',
+        path: 'fa',
+      },
+    },
   },
 
   presets: [
@@ -57,9 +74,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'راسخ',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'لوگو ابزار تحلیلی',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,12 +84,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'سئو سایت',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'رسانه‌های اجتماعی', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://zil.ink/saeed_aliverdi',
+            label: 'Saeed',
             position: 'right',
           },
         ],
@@ -81,46 +98,56 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'سایت',
             items: [
               {
-                label: 'Tutorial',
+                label: 'سئو و بهینه‌سازی',
                 to: '/docs/intro',
+              },
+              {
+                label: 'سئو داخلی',
+                to: '/docs/SEO/سئو%20داخلی%20سایت/onpage-seo',
+              },              {
+                label: 'سئو فنی',
+                to: '/docs/SEO/Technical-SEO/',
+              },              {
+                label: 'سئو خارجی',
+                to: '/docs/SEO/سئو%20خارجی%20سایت/offpage-seo',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'رسانه‌های اجتماعی',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'توییتر',
+                to: '/blog',
+              },
+              {
+                label: 'اینستاگرام',
+                href: '/blog',
+              },
+            ],
+          },
+          {
+            title: 'ابزارهای تحلیل',
+            items: [
+              {
+                label: 'تحلیل سئو',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
+                label: 'تحلیل توییتر',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'Twitter',
+                label: 'تحلیل اینستاگرام',
                 href: 'https://twitter.com/docusaurus',
               },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Saeed Aliverdikhani`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            همین حالا شروع کنید.
           </Link>
         </div>
       </div>
@@ -30,8 +30,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`سامانه راسخ ${siteConfig.title}`}
+      description="آموزش سئو و رسانه‌های اجتماعی">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
