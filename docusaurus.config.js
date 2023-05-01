@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'سامانه راسخ',
   tagline: 'راهنمای سئو و رسانه‌های اجتماعی',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://saeed-doc.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
