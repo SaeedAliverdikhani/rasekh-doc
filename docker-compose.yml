@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  
+  rasekh-doc:
+    build: .
+    container_name: rasekh-doc
+    ports:
+      - "8080:80"
